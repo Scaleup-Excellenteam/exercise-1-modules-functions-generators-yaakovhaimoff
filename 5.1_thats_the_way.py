@@ -1,7 +1,7 @@
 import os
 
 folder_path = '/path/to/folder'  # replace with the path to your folder
-search_pattern = 'deep'  # replace with the pattern you want to search for
+search_pattern = 'pattern'  # replace with the pattern you want to search for
 
 # Loop over all files in the folder
 for filename in os.listdir(folder_path):
