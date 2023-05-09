@@ -8,14 +8,15 @@ def join(*lists, sep='-'):
     return result
 
 
-# Example 1
-print(join([1, 2], [8], [9, 5, 6], sep='@'))
+if __name__ == '__main__':
+    # Example 1
+    print(join([1, 2], [8], [9, 5, 6], sep='@'))
 
-# Example 2
-print(join([1, 2], [8], [9, 5, 6]))
+    # Example 2
+    print(join([1, 2], [8], [9, 5, 6]))
 
-# Example 3
-print(join([1]))
+    # Example 3
+    print(join([1]))
 
-# Example 4
-print(join())
+    # Example 4
+    print(join())

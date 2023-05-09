@@ -6,5 +6,6 @@ def interleave(*iterables):
     yield from filter(None, chain.from_iterable(zip_longest(*iterables)))
 
 
-our_generator = interleave('abc', [1, 2, 3], ('!', '@', '#'))
-print(list(our_generator))
+if __name__ == '__main__':
+    our_generator = interleave('abc', [1, 2, 3], ('!', '@', '#'))
+    print(list(our_generator))

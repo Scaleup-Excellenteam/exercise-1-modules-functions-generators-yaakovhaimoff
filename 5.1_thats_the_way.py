@@ -17,3 +17,7 @@ folder_path = 'images'  # replace with the path to your folder
 search_pattern = r'^deep.*'
 that_the_way(folder_path)
 
+if __name__ == '__main__':
+    # Call the main function when the script is run
+    that_the_way(folder_path)
+

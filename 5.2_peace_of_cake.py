@@ -10,10 +10,11 @@ def get_recipe_price(prices, optionals, *ingredients):
     print(int(price/100))
 
 
-optionals = []
-chocolate, milk = 200, 100
-get_recipe_price({'chocolate': 18, 'milk': 8}, optionals, chocolate, milk)
-optionals = ['milk']
-chocolate = 300
-get_recipe_price({'chocolate': 18, 'milk': 8}, optionals, chocolate)
-get_recipe_price({}, [])
+if __name__ == '__main__':
+    optionals = []
+    chocolate, milk = 200, 100
+    get_recipe_price({'chocolate': 18, 'milk': 8}, optionals, chocolate, milk)
+    optionals = ['milk']
+    chocolate = 300
+    get_recipe_price({'chocolate': 18, 'milk': 8}, optionals, chocolate)
+    get_recipe_price({}, [])
